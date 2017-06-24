@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <h1>React simple starter</h1>
+      <div className="app-container">
         {this.props.children}
       </div>
     );
